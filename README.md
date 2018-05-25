@@ -3,4 +3,4 @@
 wrapper cookbook around community nginx cookbook.
 
 
-Karl Amrhein
+Karl S. Amrhein
