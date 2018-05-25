@@ -1,20 +1,22 @@
 name 'my_nginx'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
+maintainer 'Karl Amrhein'
+maintainer_email 'ksa@slac.stanford.edu'
+license 'MIT'
 description 'Installs/Configures my_nginx'
 long_description 'Installs/Configures my_nginx'
 version '0.1.0'
 chef_version '>= 12.14' if respond_to?(:chef_version)
+depends 'nginx'
+supports 'redhat'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/my_nginx/issues'
+issues_url 'https://github.com/ksa/my_nginx/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/my_nginx'
+source_url 'https://github.com/ksa/my_nginx'
