@@ -2,3 +2,5 @@
 
 wrapper cookbook around community nginx cookbook.
 
+
+Karl Amrhein
