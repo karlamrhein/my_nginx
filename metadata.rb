@@ -1,5 +1,5 @@
 name 'my_nginx'
-maintainer 'Karl Amrhein'
+maintainer 'Karl S. Amrhein'
 maintainer_email 'ksa@slac.stanford.edu'
 license 'Apache-2.0'
 description 'Installs/Configures my_nginx'
