@@ -1,4 +1,4 @@
 # my_nginx
 
-just testing
+wrapper cookbook around community nginx cookbook.
 
